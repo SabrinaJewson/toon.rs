@@ -1,5 +1,14 @@
 # toon
 
+Current status: Abandoned.
+This was a nice idea, and the code on this repository can be used to create advanced TUIs,
+but I lost motivation for it after I realized that
+the only way to reliably detect the width of a character on a terminal
+is by literally measuring it.
+Point is,
+terminals are just all kinds of messed up
+and I do not want to have to deal with it.
+
 [![Github](https://img.shields.io/badge/repository-github-24292e)](https://github.com/SabrinaJewson/toon.rs)
 [![Crates.io](https://img.shields.io/crates/v/toon)](https://crates.io/crates/toon)
 [![docs.rs](https://docs.rs/toon/badge.svg)](https://docs.rs/toon)
