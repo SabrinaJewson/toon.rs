@@ -1,4 +1,4 @@
-use criterion::{BatchSize, Criterion, black_box};
+use criterion::{black_box, BatchSize, Criterion};
 
 use toon::Grid;
 

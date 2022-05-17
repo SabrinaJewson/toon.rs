@@ -387,7 +387,10 @@ impl Cell {
     /// Get whether the cell is part of a double-width character.
     #[must_use]
     pub fn is_double(&self) -> bool {
-        matches!(self.0, CellInner::Char { double: true, .. } | CellInner::Continuation)
+        matches!(
+            self.0,
+            CellInner::Char { double: true, .. } | CellInner::Continuation
+        )
     }
 
     /// Get the contents of the cell, if it is not a continuation cell.

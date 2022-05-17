@@ -1,6 +1,6 @@
 # toon
 
-[![Github](https://img.shields.io/badge/repository-github-24292e)](https://github.com/KaiJewson/toon)
+[![Github](https://img.shields.io/badge/repository-github-24292e)](https://github.com/SabrinaJewson/toon.rs)
 [![Crates.io](https://img.shields.io/crates/v/toon)](https://crates.io/crates/toon)
 [![docs.rs](https://docs.rs/toon/badge.svg)](https://docs.rs/toon)
 
@@ -26,16 +26,17 @@ inconsistency bugs; given a certain state, your UI will look the exact same way,
 event system also allows you to easily trace each and every modification to your state, which
 can be very useful.
 
-See the [comparison](https://github.com/KaiJewson/toon/blob/master/COMPARISON.md) to compare it
+See the [comparison](https://github.com/SabrinaJewson/toon.rs/blob/master/COMPARISON.md) to compare it
 with the other big TUI libraries, [Cursive](https://github.com/gyscos/cursive) and
 [tui](https://github.com/fdehau/tui-rs).
 
 ## Example
 
-See the [examples](https://github.com/KaiJewson/toon/tree/master/examples) folder for more.
+See the [examples](https://github.com/SabrinaJewson/toon.rs/tree/master/examples) folder for more.
 
 Display `Hello World!` on the terminal using the Crossterm backend:
 ```rust
+#[cfg(feature = "crossterm")]
 use toon::{Crossterm, Terminal, ElementExt};
 
 let mut terminal = Terminal::new(Crossterm::default())?;

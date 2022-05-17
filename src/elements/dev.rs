@@ -1,6 +1,6 @@
 //! Developer tools for Toon.
 //!
-//! See the [example](https://github.com/KaiJewson/toon/blob/master/examples/dev.rs) for how to use
+//! See the [example](https://github.com/SabrinaJewson/toon.rs/blob/master/examples/dev.rs) for how to use
 //! this.
 
 #[cfg(not(feature = "either"))]
